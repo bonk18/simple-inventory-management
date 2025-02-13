@@ -30,20 +30,19 @@ st.markdown("""
 st.sidebar.title("📌 Navigation")
 
 if st.sidebar.button("🏠 Home", key="home"):
-    st.switch_page("Home")
+    st.switch_page("Home.py")
 
 if st.sidebar.button("📦 Add Item", key="add_item"):
-    st.switch_page('Add_Item')
+    st.switch_page('Pages/1_Add_Item.py')
 
 if st.sidebar.button("🔍 Find Item", key="find_item"):
-    st.switch_page('Find_Item')
+    st.switch_page('Pages/2_Find_Item.py')
 
 if st.sidebar.button("📋 View Items", key="view_items"):
-    st.switch_page('View_items')
+    st.switch_page('Pages/3_View_items.py')
 
 if st.sidebar.button("🗑️ Delete Item",key='delete_item'):
-    st.switch_page('Delete_item')
-
+    st.switch_page('Pages/4_Delete_item.py')
 
 
 
@@ -51,13 +50,13 @@ if st.sidebar.button("🗑️ Delete Item",key='delete_item'):
 col1,col2,col3,col4=st.columns(4)
 with col1:
     if st.button('📦 Add item'):
-        st.st.switch_page('Add_Item')
+        st.switch_page('Pages/1_Add_Item.py')
 with col2:
     if st.button('🔍 Find item'):
-        st.switch_page('Find_Item')
+        st.switch_page('Pages/2_Find_Item.py')
 with col3:
     if st.button('📋 View items'):
-        st.switch_page('View_items')
+        st.switch_page('Pages/3_View_items.py')
 with col4:
     if st.button('🗑️ Delete Item'):
-        st.switch_page('Delete_item')
+        st.switch_page('Pages/4_Delete_item.py')
