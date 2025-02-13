@@ -17,7 +17,8 @@ Delete Items: Remove items when they’re no longer needed.
 # Future Enhancements 
 - Exporting data to csv format
 - Adding  tags and more features for categorization
-- Improving the response time of the application 
+- Improving the response time of the application
+
 
 # Folder structure
 ### Folder Structure  
